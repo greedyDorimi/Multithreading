@@ -14,4 +14,7 @@ public class Job {
         this.recurring = recurring;
         this.interval = interval;
     }
+    public void run() {
+        task.run();
+    }
 }
